@@ -1,0 +1,11 @@
+# Lint the Python scripts that we actively maintain. The Jupyter notebook
+# Globe+Markets.ipynb is preserved verbatim as the original 2017 walkthrough
+# and is intentionally not subject to lint rules.
+
+extend-exclude = ["Globe+Markets.ipynb", "data/"]
+
+line-length = 100
+
+[lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = []
