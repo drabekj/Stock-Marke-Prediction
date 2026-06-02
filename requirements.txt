@@ -1,8 +1,7 @@
-ipython==6.1.0
-jupyter==1.0.0
-matplotlib==2.0.2
-notebook==5.0.0
-numpy==1.13.0
-pandas==0.20.2
-scipy==0.19.1
-tensorflow==1.2.0
+numpy>=1.26
+pandas>=2.2
+scipy>=1.13
+matplotlib>=3.9
+yfinance>=0.2.40
+tensorflow>=2.16
+scikit-learn>=1.5
