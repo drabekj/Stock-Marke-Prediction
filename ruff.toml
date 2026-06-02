@@ -7,5 +7,9 @@ extend-exclude = ["Globe+Markets.ipynb", "data/"]
 line-length = 100
 
 [lint]
-select = ["E", "F", "I", "UP", "B"]
+# E/F = pycodestyle + pyflakes (real correctness signals).
+# UP/B = pyupgrade + bugbear (modernity + likely-bug patterns).
+# `I` (import sorting) intentionally omitted — too opinionated for a
+# small repo where contributor PRs shouldn't be blocked on import order.
+select = ["E", "F", "UP", "B"]
 ignore = []
